@@ -1,5 +1,8 @@
 @extends('layouts.default') <!--view dosyasını genişletir -->
 @section('content')   <!-- yield ile içerik eklemek için kullanılır. -->
+
+<h5>Laravel custom konfigürasyon</h5>
+{{$value=config('app.kullanici.deger')}}
 <div style="text-align: center; color:#6d89a2">
         <h5>Villa Aphrodite</h5>
         <p style="font-size: 12px;">Waterfront Vacation RentalWaterfront Vacation Rental</p>
