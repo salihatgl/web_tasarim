@@ -47,5 +47,13 @@
 
     </div>
 </body>
+<script>
+    import cookie from 'cookiejs';
+
+
+     cookie("test", "tank", 1);
+    cookie.get('test');
+
+</script>
 
 </html>
